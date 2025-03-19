@@ -14,9 +14,8 @@ var Keywords map[string][]string
 var PredictionsMap map[string][]string
 
 func LoadData() {
-	log.Println("Загрузка ключевых слов...")
+	log.Println("Загрузка данных...")
 	loadKeywords()
-	log.Println("Загрузка предсказаний...")
 	loadPredictions()
 }
 
